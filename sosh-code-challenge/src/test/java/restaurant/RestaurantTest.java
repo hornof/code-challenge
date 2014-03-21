@@ -141,4 +141,5 @@ public class RestaurantTest {
 		assertEquals(expected2,
 				r.find_open_restaurants(longFile, sdf.parse("March 16, 2014 1:00 am")).toArray());
 	}
+	
 }
